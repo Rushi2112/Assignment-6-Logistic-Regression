@@ -7,7 +7,8 @@ Attribute information For bank dataset
 
 Input variables:
 
-bank client data:
+# Bank client data:
+
 1 - age (numeric)
 
 2 - job : type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student", "blue-collar","self-employed","retired","technician","services")
@@ -24,7 +25,7 @@ bank client data:
 
 8 - loan: has personal loan? (binary: "yes","no")
 
-related with the last contact of the current campaign:
+# Related with the last contact of the current campaign:
 9 - contact: contact communication type (categorical: "unknown","telephone","cellular")
 
 10 - day: last contact day of the month (numeric)
@@ -33,7 +34,7 @@ related with the last contact of the current campaign:
 
 12 - duration: last contact duration, in seconds (numeric)
 
-other attributes:
+# Other attributes:
 13 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
 
 14 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
